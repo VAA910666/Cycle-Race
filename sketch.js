@@ -49,7 +49,7 @@ function setup() {
 
   //set collider for mainCyclist
   mainCyclist.setCollider("rectangle", 0, 0, mainCyclist.width, mainCyclist.height)
-  mainCyclist.debug = true
+  mainCyclist.debug = false
 
   gameOver = createSprite(650, 150);
   gameOver.addImage(gameOverImg);
